@@ -1,0 +1,28 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+### JetBrains ###
+# Local configuration
+.idea/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### Maven ###
+target/
