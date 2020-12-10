@@ -16,9 +16,9 @@
         <junit.version>5.7.0</junit.version>
         <cucumber.version>6.9.0</cucumber.version>
         <spring.version>5.3.1</spring.version>
-        <selenium-java>3.141.59</selenium-java>
-        <webdrivermanager>4.2.2</webdrivermanager>
-        <logging.log4j>2.4.1</logging.log4j>
+        <selenium-java.version>3.141.59</selenium-java.version>
+        <webdrivermanager.version>4.2.2</webdrivermanager.version>
+        <logging.log4j2.version>2.4.1</logging.log4j2.version>
     </properties>
 
     <dependencies>
@@ -65,23 +65,23 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>${selenium-java}</version>
+            <version>${selenium-java.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>${webdrivermanager}</version>
+            <version>${webdrivermanager.version}</version>
         </dependency>
         <!-- Loggers -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>${logging.log4j}</version>
+            <version>${logging.log4j2.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>${logging.log4j}</version>
+            <version>${logging.log4j2.version}</version>
         </dependency>
     </dependencies>
 
