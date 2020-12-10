@@ -11,11 +11,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        plugin = {
-                "pretty",
-                "progress",
-                "summary"
-        }
+        plugin = {"pretty"},
+        monochrome = true
 )
 public class CucumberRunnerTest {
 }
