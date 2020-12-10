@@ -42,6 +42,25 @@
             <version>${cucumber.version}</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-spring</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- Dependency Injection -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <scope>provided</scope>
+        </dependency>
         <!-- Browsers -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
