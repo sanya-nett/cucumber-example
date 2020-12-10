@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = {"src/test/resources/features"},
         plugin = {"pretty"},
         glue = {"com.ascherba.cucumber"},
         monochrome = true
