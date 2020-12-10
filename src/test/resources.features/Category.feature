@@ -2,7 +2,7 @@ Feature: Categories menu
 
   Scenario Outline: Available list of categories
     Given Open main page
-    Then Show "<category>" in header menu
+    Then Show category "<category>" in header menu
     And Category "<category>" has "<link>" link
 
     Examples:
